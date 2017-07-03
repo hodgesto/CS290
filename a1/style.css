@@ -1,0 +1,32 @@
+body {
+  background-color: white;
+}
+
+tbody td:first-child {
+  font-style: italic;
+}
+
+th {
+  width: 60px;
+}
+
+td {
+  width: 60px;
+}
+
+.outer-content {
+  background-color: pink;
+  width: 75%;
+  padding: 10px;
+}
+
+.inner-content {
+  background-color: skyblue;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
